@@ -1,0 +1,1251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ab72d2cd-34e3-47a7-b575-4fb4e6eabb1b" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-eurake/target/" />
+    <ignored path="$PROJECT_DIR$/srping-cloud-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-demo/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-demo2/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-admin/target/" />
+    <ignored path="$PROJECT_DIR$/helloWorld/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-graphql/target/" />
+    <ignored path="$PROJECT_DIR$/unit-testing/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-jpa/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-rabbbitmq/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/common/common-basic/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-mongodb/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-zipkin/target/" />
+    <ignored path="$PROJECT_DIR$/spring-cloud-admin/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/kafka-producer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-kafka/kafka-producer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-kafka-producer/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-kafka-consumer/target/" />
+    <ignored path="$PROJECT_DIR$/zfb-pay/target/" />
+    <ignored path="$PROJECT_DIR$/spring-boot-video/target/" />
+    <ignored path="$PROJECT_DIR$/admin/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1944984478">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="52" />
+          <entry key="project.open.time.0" value="5" />
+          <entry key="project.open.time.1" value="15" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.17" value="2" />
+          <entry key="project.open.time.2" value="21" />
+          <entry key="project.open.time.21" value="1" />
+          <entry key="project.open.time.3" value="3" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="53" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="423" />
+          <entry key="jpg" value="1" />
+          <entry key="jsp" value="1" />
+          <entry key="md" value="6" />
+          <entry key="properties" value="9" />
+          <entry key="txt" value="10" />
+          <entry key="uml" value="1" />
+          <entry key="vm" value="4" />
+          <entry key="xml" value="77" />
+          <entry key="yml" value="76" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="1" />
+          <entry key="JAVA" value="423" />
+          <entry key="JSP" value="1" />
+          <entry key="Markdown" value="6" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="Properties" value="9" />
+          <entry key="UML" value="1" />
+          <entry key="VTL" value="4" />
+          <entry key="XML" value="77" />
+          <entry key="YAML" value="76" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="101" />
+          <entry key="java" value="10065" />
+          <entry key="md" value="33" />
+          <entry key="properties" value="51" />
+          <entry key="txt" value="169" />
+          <entry key="xml" value="303" />
+          <entry key="yml" value="1553" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="10065" />
+          <entry key="Markdown" value="33" />
+          <entry key="PLAIN_TEXT" value="270" />
+          <entry key="Properties" value="51" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="302" />
+          <entry key="YAML" value="1553" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>when</find>
+      <find>org.apache.kafka.clients.consumer.ConsumerConfig</find>
+      <find>=</find>
+      <find>generator</find>
+      <find>ResultVO</find>
+      <find>UserBaseInformationVO</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ConsumerConfig</replace>
+      <replace>:</replace>
+      <replace>ReturnResultVo</replace>
+      <replace>UserBaseInformation</replace>
+    </replaceStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/service/IUserBaseInformation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/controller/FileOperationController.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/JsonUtil.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-boot-mongodb/src/test/java/com/project/springbootmongodb/SpringBootMongodbApplicationTests.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-boot-video/src/main/resources/mapper/File.xml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/entity/UserBaseInformation.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-cloud-zuul/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/JWTUtils.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/config/CrossFilter.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-cloud-eurake/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/helloWorld/src/main/java/MyThread/Thread_Implementation_package/Thread_Daemon.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/srping-cloud-config-server/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-boot-kafka-consumer/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-cloud-demo/src/main/java/com/project/demo/web/FileUpload.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/spring-boot-kafka-producer/src/main/resources/application.yml" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/helloWorld/src/main/java/MyThread/Thread_Implementation_package/Thread_join_sleep.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/helloWorld/src/main/java/OptionalPackage/OptionalTest.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/dao/UserBaseInformationDao.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spring-boot-video/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/resources/generator.yml" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/generator/MybatisGeneratorUtil.java" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/resources/mybatis_generator_config.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/config/WebAppConfig.java" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/entity/File.java" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/resources/mapper/Demo.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/service/IFile.java" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/SpringBootVideoApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/controller/FileOperationController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/service/impl/FileService.java" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/mappers/FileMapper.java" />
+        <option value="$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/config/CrossFilter.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/vo/ReturnResultVo.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/enums/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/ReturnResultUtil.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/exception/ServiceException.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/dto/Dto.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/validate/IInsert.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/validate/ISelect.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/dto/UserBasrInformationDTO.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/MD5.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/BeanCopyUtil.java" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/SpringBootJpaApplication.java" />
+        <option value="$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/web/userBaseInformationController.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/exception/AllExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/AdminApplication.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/web/userBaseInformationController.java" />
+        <option value="$PROJECT_DIR$/admin/pom.xml" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/JsonUtil.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/CollectionUtil.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/JWTUtils.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/vo/UserBaseInformationDTO.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/vo/UserBaseInformationVO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/entity/CountryAreaCode.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/dao/CountryAreaCodeDao.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/service/IUserAdress.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/web/UserAdressController.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/dto/UserAdressDTO.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/dao/UserAdressDao.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/service/impl/UserAdressImpl.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/dao/UserBaseInformationDao.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/service/IUserBaseInformation.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/web/UserBaseInformationController.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/service/impl/UserBaseInformationImpl.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/entity/UserBaseInformation.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/entity/UserAdress.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/project/admin/config/CrossFilter.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.3" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="MyProject" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-video" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-boot-video" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="622" />
+    <option name="y" value="27" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Probable bugsJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>IgnoreResultOfCall</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="MyProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MyProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/spring-boot-mongodb/HELP.md" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1563781086993" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-cloud-demo/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../F2FPay_Demo_Java" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.23958333" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gant" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\MyProject\helloWorld\src\main\java\MyThread\Thread_Implementation_package" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.project.kafkaproducer" />
+      <recent name="com.project.springbootjpa" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.project.admin.service.impl" />
+      <recent name="com.project.admin.service" />
+      <recent name="com.project.admin.dto" />
+      <recent name="com.project.admin.web" />
+      <recent name="com.project.admin.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Project\MyProject\admin\src\main\java\com\project\admin\config" />
+      <recent name="D:\Project\MyProject\admin\src\main\java\com\project\admin" />
+      <recent name="D:\Project\MyProject\spring-boot-video\src\main\java\com\project\springbootvideo\config" />
+      <recent name="D:\Project\MyProject\spring-boot-video\src\main\resources\mapper" />
+      <recent name="D:\Project\MyProject\spring-boot-video\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.AdminApplication">
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Entity.Account" />
+      <module name="helloWorld" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Entity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JWTUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.admin.util.JWTUtils" />
+      <module name="admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.admin.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisGeneratorUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.project.springbootvideo.generator.MybatisGeneratorUtil" />
+      <module name="spring-boot-video" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.springbootvideo.generator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootJpaApplicationTests.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-jpa" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.springbootjpa.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.springbootjpa" />
+      <option name="MAIN_CLASS_NAME" value="com.project.springbootjpa.SpringBootJpaApplicationTests" />
+      <option name="METHOD_NAME" value="add" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootMongodbApplicationTests.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mongodb" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.springbootmongodb.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.springbootmongodb" />
+      <option name="MAIN_CLASS_NAME" value="com.project.springbootmongodb.SpringBootMongodbApplicationTests" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-kafka-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.kafkaconsumer.KafkaConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-kafka-producer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.kafkaproducer.KafkaProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KafkaProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="spring-boot-kafka-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.kafkaproducer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.kafkaproducer.KafkaProducerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-jpa" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.springbootjpa.SpringBootJpaApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootMongodbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-mongodb" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.springbootmongodb.SpringBootMongodbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootRabbbitmqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-rabbbitmq" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.springbootrabbbitmq.SpringBootRabbbitmqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootVideoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-video" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.springbootvideo.SpringBootVideoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.springcloudadmin.SpringCloudAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudDemo2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-demo2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.springclouddemo2.SpringCloudDemo2Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurakeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-eurake" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.springcloudeurake.SpringCloudEurakeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.springcloudzuul.SpringCloudZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SrpingCloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="srping-cloud-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.project.srpingcloudconfigserver.SrpingCloudConfigServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/../idea/vue/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="C:/Program Files/nodejs/node" />
+      <package-manager value="npm" />
+      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringCloudEurakeApplication" />
+      <item itemvalue="Spring Boot.SrpingCloudConfigServerApplication" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.SpringCloudZuulApplication" />
+      <item itemvalue="Spring Boot.SpringCloudDemo2Application" />
+      <item itemvalue="Spring Boot.SpringBootJpaApplication" />
+      <item itemvalue="Spring Boot.SpringBootRabbbitmqApplication" />
+      <item itemvalue="Spring Boot.SpringBootMongodbApplication" />
+      <item itemvalue="Spring Boot.SpringCloudAdminApplication" />
+      <item itemvalue="Spring Boot.KafkaProducerApplication" />
+      <item itemvalue="Spring Boot.KafkaConsumerApplication" />
+      <item itemvalue="Spring Boot.SpringBootVideoApplication" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+      <item itemvalue="JUnit.SpringBootMongodbApplicationTests.save" />
+      <item itemvalue="JUnit.SpringBootJpaApplicationTests.add" />
+      <item itemvalue="Application.Account" />
+      <item itemvalue="Application.MybatisGeneratorUtil" />
+      <item itemvalue="Application.JWTUtils" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.JWTUtils" />
+        <item itemvalue="Application.MybatisGeneratorUtil" />
+        <item itemvalue="Application.Account" />
+        <item itemvalue="JUnit.SpringBootJpaApplicationTests.add" />
+        <item itemvalue="Spring Boot.KafkaProducerApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab72d2cd-34e3-47a7-b575-4fb4e6eabb1b" name="Default Changelist" comment="" />
+      <created>1553844152084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1553844152084</updated>
+      <workItem from="1553844153462" duration="9067000" />
+      <workItem from="1554097895098" duration="2166000" />
+      <workItem from="1554100450740" duration="1239000" />
+      <workItem from="1554102110865" duration="5837000" />
+      <workItem from="1554110206884" duration="2303000" />
+      <workItem from="1554170758771" duration="16084000" />
+      <workItem from="1554259302040" duration="1623000" />
+      <workItem from="1554274618837" duration="6428000" />
+      <workItem from="1554357178741" duration="18000" />
+      <workItem from="1554717993576" duration="34000" />
+      <workItem from="1554790652889" duration="5747000" />
+      <workItem from="1555298456712" duration="7632000" />
+      <workItem from="1555313607136" duration="1332000" />
+      <workItem from="1555381528590" duration="48000" />
+      <workItem from="1555396118497" duration="10352000" />
+      <workItem from="1555466493978" duration="4996000" />
+      <workItem from="1555484035802" duration="1322000" />
+      <workItem from="1555574234061" duration="1918000" />
+      <workItem from="1555579330132" duration="466000" />
+      <workItem from="1555640549235" duration="476000" />
+      <workItem from="1555641701539" duration="3587000" />
+      <workItem from="1555927871372" duration="1687000" />
+      <workItem from="1556011971987" duration="38000" />
+      <workItem from="1557137373959" duration="1255000" />
+      <workItem from="1557455812356" duration="18323000" />
+      <workItem from="1557712363745" duration="4100000" />
+      <workItem from="1557730000228" duration="2287000" />
+      <workItem from="1557822441650" duration="606000" />
+      <workItem from="1557907416061" duration="2722000" />
+      <workItem from="1558337133121" duration="2087000" />
+      <workItem from="1558515693594" duration="4777000" />
+      <workItem from="1558582294636" duration="7763000" />
+      <workItem from="1558924934666" duration="7888000" />
+      <workItem from="1560763536198" duration="5093000" />
+      <workItem from="1560822374094" duration="13277000" />
+      <workItem from="1560929276453" duration="8282000" />
+      <workItem from="1560996356547" duration="3190000" />
+      <workItem from="1561342500635" duration="3668000" />
+      <workItem from="1561442392802" duration="22000" />
+      <workItem from="1561445917289" duration="4194000" />
+      <workItem from="1561623347805" duration="53000" />
+      <workItem from="1561628239881" duration="1837000" />
+      <workItem from="1561630518761" duration="995000" />
+      <workItem from="1562662668470" duration="342000" />
+      <workItem from="1562663800462" duration="808000" />
+      <workItem from="1562728331444" duration="12659000" />
+      <workItem from="1562824329277" duration="14937000" />
+      <workItem from="1563155698666" duration="569000" />
+      <workItem from="1563156659782" duration="2875000" />
+      <workItem from="1563171484879" duration="4945000" />
+      <workItem from="1563256622954" duration="5687000" />
+      <workItem from="1563265148456" duration="1220000" />
+      <workItem from="1563765106311" duration="5088000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SpringBootMongodbApplicationTests_save - 2019.05.10 at 17h 01m 52s.xml">
+      <configuration name="SpringBootMongodbApplicationTests.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootMongodbApplicationTests_del - 2019.05.10 at 17h 02m 21s.xml">
+      <configuration name="SpringBootMongodbApplicationTests.del" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootMongodbApplicationTests_saveFamily - 2019.05.10 at 17h 08m 02s.xml">
+      <configuration name="SpringBootMongodbApplicationTests.saveFamily" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootMongodbApplicationTests_save - 2019.05.10 at 17h 08m 41s.xml">
+      <configuration name="SpringBootMongodbApplicationTests.save" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootMongodbApplicationTests_find - 2019.05.10 at 17h 29m 44s.xml">
+      <configuration name="SpringBootMongodbApplicationTests.find" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootJpaApplicationTests_add - 2019.06.25 at 15h 43m 38s.xml">
+      <configuration name="SpringBootJpaApplicationTests.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootJpaApplicationTests_add - 2019.06.25 at 15h 43m 58s.xml">
+      <configuration name="SpringBootJpaApplicationTests.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootJpaApplicationTests_add - 2019.06.25 at 15h 44m 14s.xml">
+      <configuration name="SpringBootJpaApplicationTests.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootJpaApplicationTests_add - 2019.06.25 at 15h 56m 50s.xml">
+      <configuration name="SpringBootJpaApplicationTests.add" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SpringBootJpaApplicationTests_add - 2019.06.25 at 15h 57m 34s.xml">
+      <configuration name="SpringBootJpaApplicationTests.add" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="225949000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25899744" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.69448185" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44549125" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32974428" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2962725" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32969153" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32969153" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2525707" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32974428" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.7671602" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44549125" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32974428" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32974428" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Thumbnails" order="14" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.2962725" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32969153" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" weight="0.32969153" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-boot-rabbbitmq/src/main/java/com/project/springbootrabbbitmq/web/MessageProducer.java</url>
+          <line>31</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/entity/UserBaseInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="27" column="103" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/entity/IntegralRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="49" column="71" lean-forward="true" selection-start-line="49" selection-start-column="2" selection-end-line="49" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/vo/ReturnResultVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/ReturnResultUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-core/5.3.10.Final/hibernate-core-5.3.10.Final-sources.jar!/org/hibernate/service/spi/ServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/dao/UserBaseInformationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/validate/ISelect.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/validate/IInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/MD5.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/BeanCopyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/service/impl/IntegralRecordService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/service/IIntegralRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/service/impl/FileService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1612">
+          <caret line="62" column="29" lean-forward="true" selection-start-line="62" selection-start-column="29" selection-end-line="62" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/service/IFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/enums/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="200" selection-start-line="200" selection-end-line="200" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="414" selection-start-line="414" selection-end-line="414" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/web/userBaseInformationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-video/src/main/java/com/project/springbootvideo/SpringBootVideoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-jpa/src/main/java/com/project/springbootjpa/SpringBootJpaApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/exception/ServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/exception/AllExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="66" column="5" lean-forward="true" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/JsonUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="491">
+          <caret line="130" column="65" lean-forward="true" selection-start-line="130" selection-start-column="65" selection-end-line="130" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/impl/DefaultJwtBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-650">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/Jwts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="521">
+          <caret line="115" column="30" selection-start-line="115" selection-start-column="30" selection-end-line="115" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/SignatureAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-463">
+          <caret line="25" column="12" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/jsonwebtoken/jjwt/0.9.1/jjwt-0.9.1-sources.jar!/io/jsonwebtoken/impl/DefaultClaims.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="61" column="43" lean-forward="true" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/CollectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/util/JWTUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1323">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/AdminApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/vo/UserBaseInformationVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/dao/CountryAreaCodeDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="73" selection-start-line="7" selection-start-column="73" selection-end-line="7" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/dto/UserAdressDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/service/IUserAdress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="5" column="28" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/dao/UserAdressDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/service/impl/UserAdressImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/web/UserAdressController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/dto/UserBaseInformationDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.9.RELEASE/spring-data-commons-2.1.9.RELEASE-sources.jar!/org/springframework/data/repository/CrudRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2-sources.jar!/javax/persistence/OneToMany.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="113" lean-forward="true" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/service/IUserBaseInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="9" column="33" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/service/impl/UserBaseInformationImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/dao/UserBaseInformationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/entity/UserBaseInformation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1352">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/entity/CountryAreaCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="38" column="49" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/entity/UserAdress.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="193" lean-forward="true" selection-start-line="4" selection-start-column="193" selection-end-line="4" selection-end-column="193" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/web/UserBaseInformationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/project/admin/config/CrossFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="471">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23958333" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>vue</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23958333" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23958333" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>TradePaySDK</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23958333" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.23958333" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

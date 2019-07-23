@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: spring-cloud-demo
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/jpa?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: root
+#    driver-class-name: com.mysql.jdbc.Driver
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  cloud:
+    config:
+      name: test
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        serviceId: springcloud-config-server
+  boot:
+    admin:
+      client:
+        url: "http://127.0.0.1:8083"   #指定SpringBootAdmin服务端地址
+        password: password
+        username: user
+        instance:
+          prefer-ip: true
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+  client:
+    service-url:
+      defaultZone: http://eureka:eureka@127.0.0.1:8761/eureka/
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
+
+
+
+

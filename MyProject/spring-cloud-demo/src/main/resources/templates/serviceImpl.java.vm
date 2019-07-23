@@ -1,0 +1,107 @@
+package ${package.ServiceImpl};
+
+import ${package.Entity}.${entity};
+import ${package.Mapper}.${table.mapperName};
+import ${package.Service}.${table.serviceName};
+import ${superServiceImplClassPackage};
+import org.springframework.stereotype.Service;
+
+import org.springframework.transaction.annotation.Transactional;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.tima.${package.ModuleName}.vo.ResultVO;
+import com.tima.${package.ModuleName}.dto.${entity}DTO;
+import com.tima.${package.ModuleName}.vo.${entity}VO;
+import com.tima.${package.ModuleName}.util.BeanCopyUtil;
+import com.baomidou.mybatisplus.mapper.EntityWrapper;
+import com.tima.${package.ModuleName}.util.ResultVOUtil;
+import com.baomidou.mybatisplus.plugins.Page;
+
+/**
+ * <p>
+ * $!{table.comment} 服务实现类
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+@Slf4j
+@Transactional
+@Service
+#if(${kotlin})
+open class ${table.serviceImplName} : ${superServiceImplClass}<${table.mapperName}, ${entity}>(), ${table.serviceName} {
+
+}
+#else
+public class ${table.serviceImplName} extends ${superServiceImplClass}<${table.mapperName}, ${entity}> implements ${table.serviceName} {
+  
+   
+   #if(${table.mapperName})
+   #set ($tableMapperNameFormat=${table.mapperName})
+   #set ($tableMapperName = $tableMapperNameFormat.substring(0,1).toLowerCase() + $tableMapperNameFormat.substring(1,$tableMapperNameFormat.length()))
+   #end
+   @Autowired
+   private ${table.mapperName} $tableMapperName;
+   @Override
+   public ResultVO<?> search${entity}List(${entity}DTO dto){
+   EntityWrapper<${entity}> entityWrapper=new EntityWrapper<${entity}>();
+    ${entity} entity=new ${entity}();
+    BeanCopyUtil.copyPropertiesIgnoreNull(dto,entity);
+    entityWrapper.setEntity(entity);
+   	return ResultVOUtil.returnSuccess(${tableMapperName}.selectList(entityWrapper));
+   }
+   @Override
+   public ResultVO<?> search${entity}ListPage(${entity}DTO dto){
+    Page<${entity}> page=new Page<${entity}>();
+    page.setSize(dto.getSize());
+	page.setCurrent(dto.getCurrent());
+    EntityWrapper<${entity}> entityWrapper=new EntityWrapper<${entity}>();
+    ${entity} entity=new ${entity}();
+    BeanCopyUtil.copyPropertiesIgnoreNull(dto,entity);
+    entityWrapper.setEntity(entity);
+    return ResultVOUtil.returnSuccess(page.setRecords(${tableMapperName}.selectPage(page,entityWrapper)));
+   }
+   @Override
+   public ResultVO<?> search${entity}One(${entity}DTO dto){
+   ${entity} entity=new ${entity}();
+   BeanCopyUtil.copyPropertiesIgnoreNull(dto,entity);
+   
+   	return ResultVOUtil.returnSuccess(${tableMapperName}.selectOne(entity));
+   }
+   @Override
+   public ResultVO<?> add${entity}(${entity}DTO dto){
+   ${entity} entity=new ${entity}();
+   BeanCopyUtil.copyPropertiesIgnoreNull(dto,entity);
+   //需要开发人员各自定义
+   entity.setNo("");
+   ${tableMapperName}.insert(entity);
+   	return ResultVOUtil.returnSuccess();
+   }
+   @Override
+   public ResultVO<?> update${entity}(${entity}DTO dto){
+   ${entity} entity=new ${entity}();
+    entity.setNo(dto.getNo());
+    ${entity} result=${tableMapperName}.selectOne(entity);
+    BeanCopyUtil.copyPropertiesIgnoreNull(dto,result);   
+    ${tableMapperName}.updateById(result);
+   	return ResultVOUtil.returnSuccess();
+   }
+   @Override
+   public ResultVO<?> delete${entity}(${entity}DTO dto){
+   ${entity} entity=new ${entity}();
+    entity.setNo(dto.getNo()); 
+    ${entity} result=${tableMapperName}.selectOne(entity); 
+    ${tableMapperName}.deleteById(result.getId());
+   	return ResultVOUtil.returnSuccess();
+   }
+   @Override
+   public ResultVO<?> search${entity}Relation(${entity}DTO dto){
+        //自定义分页参考依据
+        //VehicleCustom vehicleCustom=new VehicleCustom();
+		//ConvertUtil<VehicleRO, VehicleCustom> convertUtil = new ConvertUtil<VehicleRO, VehicleCustom>();
+		//Page<VehicleCustom> result = convertUtil.pageCommon(ro, vehicleCustom);		
+		//return ResultVOUtil.returnSuccess(result.setRecords(this.baseMapper.selectVehicleCustomList(result, convertUtil.entity(ro, vehicleCustom))));		
+   	return null;
+   }
+}
+#end

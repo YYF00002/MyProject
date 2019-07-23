@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 9073
+spring:
+  application:
+    name: spring-cloud-zuul
+zuul:
+  routes:
+    api-1:
+      path: /demo1/**
+      serviceId: spring-cloud-demo
+    api-2:
+      path: /demo2/**
+      serviceId: spring-cloud-demo2
+
+
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
+ribbon:
+  ConnectTimeout: 3000
+  ReadTimeout: 60000

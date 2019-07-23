@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: spring-boot-mongodb
+  data:
+    mongodb:
+      database: JAC-ADMIN
+      host: 172.20.20.73
+      username: jhjttaima
+      password: jhjttaima
+      port: 27017

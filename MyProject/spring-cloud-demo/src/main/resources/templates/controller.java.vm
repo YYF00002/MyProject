@@ -1,0 +1,107 @@
+package ${package.Controller};
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+import lombok.extern.slf4j.Slf4j;
+import com.tima.${package.ModuleName}.vo.ResultVO;
+import com.tima.${package.ModuleName}.dto.${entity}DTO;
+import com.tima.${package.ModuleName}.vo.${entity}VO;
+import ${package.Service}.${table.serviceName};
+import ${package.Entity}.${entity};
+import java.util.List;
+import com.baomidou.mybatisplus.plugins.Page;
+
+#if(${restControllerStyle})
+import org.springframework.web.bind.annotation.RestController;
+#else
+import org.springframework.stereotype.Controller;
+#end
+#if(${superControllerClassPackage})
+import ${superControllerClassPackage};
+#end
+
+/**
+ * <p>
+ * $!{table.comment} 前端控制器
+ * </p>
+ *
+ * @author ${author}
+ * @since ${date}
+ */
+@Slf4j
+@Api(tags = { "$!{table.comment}API" })
+#if(${restControllerStyle})
+@RestController
+#else
+@Controller
+#end
+@RequestMapping("#if(${package.ModuleName})/${package.ModuleName}#end/#if(${controllerMappingHyphenStyle})${controllerMappingHyphen}#else${table.entityPath}#end")
+#if(${kotlin})
+class ${table.controllerName}#if(${superControllerClass}) : ${superControllerClass}()#end
+
+#else
+#if(${superControllerClass})
+public class ${table.controllerName} extends ${superControllerClass} {
+#else
+public class ${table.controllerName} {
+#end
+    
+   @Autowired
+     #if(${table.serviceName})
+   #set ($tableServiceNameFormat=${table.serviceName})
+   #set ($tableServiceName = $tableServiceNameFormat.substring(0,1).toLowerCase() + $tableServiceNameFormat.substring(1,$tableServiceNameFormat.length()))
+   #end
+   private ${table.serviceName}  $tableServiceName; 
+   
+    @ApiOperation(value = "$!{table.comment}列表查询", notes = "$!{table.comment}API")
+	@RequestMapping(value = "/search${entity}List",method = RequestMethod.POST)
+	@ResponseBody
+	public ResultVO<List<${entity}>> search${entity}List(@RequestBody ${entity}DTO dto){		
+		return (ResultVO<List<${entity}>>)${tableServiceName}.search${entity}List(dto);
+	}
+	@ApiOperation(value = "$!{table.comment}列表分页查询", notes = "$!{table.comment}API")
+	@RequestMapping(value = "/search${entity}ListPage",method = RequestMethod.POST)
+	@ResponseBody
+	public ResultVO<Page<${entity}>> search${entity}ListPage(@RequestBody ${entity}DTO dto){		
+		return (ResultVO<Page<${entity}>>)${tableServiceName}.search${entity}ListPage(dto);
+	}
+	@ApiOperation(value = "$!{table.comment}详细查询", notes = "$!{table.comment}API")
+	@RequestMapping(value = "/search${entity}One",method = RequestMethod.POST)
+	@ResponseBody
+	public ResultVO<${entity}> search${entity}One(@RequestBody ${entity}DTO dto){		
+		return (ResultVO<${entity}>)${tableServiceName}.search${entity}One(dto);
+	}
+	@ApiOperation(value = "$!{table.comment}添加", notes = "$!{table.comment}API")
+	@RequestMapping(value = "/add${entity}",method = RequestMethod.POST)
+	@ResponseBody
+	public ResultVO<?> add${entity}(@RequestBody ${entity}DTO dto){		
+		return ${tableServiceName}.add${entity}(dto);
+	}	
+	@ApiOperation(value = "$!{table.comment}更新", notes = "$!{table.comment}API")
+	@RequestMapping(value = "/update${entity}",method = RequestMethod.POST)
+	@ResponseBody
+	public ResultVO<?> update${entity}(@RequestBody ${entity}DTO dto){		
+		return ${tableServiceName}.update${entity}(dto);
+	}	
+	@ApiOperation(value = "$!{table.comment}删除", notes = "$!{table.comment}API")
+	@RequestMapping(value = "/delete${entity}",method = RequestMethod.POST)
+	@ResponseBody
+	public ResultVO<?> delete${entity}(@RequestBody ${entity}DTO dto){		
+		return ${tableServiceName}.delete${entity}(dto);
+	}
+	@ApiOperation(value = "$!{table.comment}关联查询", notes = "$!{table.comment}API")
+	@RequestMapping(value = "/search${entity}Relation",method = RequestMethod.POST)
+	@ResponseBody
+	public ResultVO<${entity}VO> search${entity}Relation(@RequestBody ${entity}DTO dto){		
+		return (ResultVO<${entity}VO>)${tableServiceName}.search${entity}Relation(dto);
+	}		
+}
+
+#end

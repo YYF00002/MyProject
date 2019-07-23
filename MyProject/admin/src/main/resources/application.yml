@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/jpa?useUnicode=true&characterEncoding=utf8&autoReconnect=true&zeroDateTimeBehavior=convertToNull&transformedBitIsBoolean=true&useSSL=false&serverTimezone=UTC
+    type: com.alibaba.druid.pool.DruidDataSource
+  jpa:
+    hibernate:
+#      create ����ʱɾ���ݿ��еı�Ȼ�󴴽����˳�ʱ��ɾ�����ݱ�
+#      create-drop ����ʱɾ���ݿ��еı�Ȼ�󴴽����˳�ʱɾ�����ݱ� ��������ڱ���
+#      update �������ʱ���ʽ��һ������±�ԭ�����ݱ���
+#      validate ��Ŀ������ṹ����У�� �����һ���򱨴�
+      ddl-auto: update #�Զ�����
+    show-sql: true  #��־����ʾsql���
+    #jpaĬ�Ͻ���ʱ�õ�����ΪMyISAM����MyISAMȴ�ǲ�֧������ģ�Ҫ��֧����Ҫ����Ĵ洢������ΪInnoDB
+    #���ñ�Ĵ洢����ΪInnoDB
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect

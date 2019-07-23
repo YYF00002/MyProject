@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="admin" />
+        <module name="common-basic" />
+        <module name="helloWorld" />
+        <module name="spring-boot-jpa" />
+        <module name="spring-boot-kafka-consumer" />
+        <module name="spring-boot-kafka-producer" />
+        <module name="spring-boot-mongodb" />
+        <module name="spring-boot-rabbbitmq" />
+        <module name="spring-boot-video" />
+        <module name="spring-cloud-admin" />
+        <module name="spring-cloud-demo" />
+        <module name="spring-cloud-demo2" />
+        <module name="spring-cloud-eurake" />
+        <module name="spring-cloud-zipkin" />
+        <module name="spring-cloud-zuul" />
+        <module name="srping-cloud-config-server" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="common-basic" target="1.5" />
+      <module name="kafka-producer" target="1.5" />
+      <module name="spring-boot-admin" target="1.8" />
+      <module name="spring-boot-graphql" target="1.8" />
+      <module name="spring-boot-kafka" target="1.5" />
+      <module name="spring-boot-kafka (1) (com.project.kafka)" target="1.8" />
+      <module name="spring-cloud-kafka" target="1.8" />
+      <module name="spring-cloud-zipkin" target="1.8" />
+      <module name="unit-testing" target="1.8" />
+      <module name="zfb-pay" target="1.5" />
+      <module name="zfbpay" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

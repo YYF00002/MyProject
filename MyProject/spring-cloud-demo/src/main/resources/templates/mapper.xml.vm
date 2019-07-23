@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="${package.Mapper}.${table.mapperName}">
+
+#if(${enableCache})
+    <!-- 开启二级缓存 -->
+    <cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+#end
+#if(${baseResultMap})
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="${package.Entity}.${entity}">
+#foreach($field in ${table.fields})
+#if(${field.keyFlag})##生成主键排在第一位
+        <id column="${field.name}" property="${field.propertyName}" />
+#end
+#end
+#foreach($field in ${table.commonFields})##生成公共字段
+    <result column="${field.name}" property="${field.propertyName}" />
+#end
+#foreach($field in ${table.fields})
+#if(!${field.keyFlag})##生成普通字段
+        <result column="${field.name}" property="${field.propertyName}" />
+#end
+#end
+    </resultMap>
+
+#end
+#if(${baseColumnList})
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+#foreach($field in ${table.commonFields})
+        ${field.name},
+#end
+        ${table.fieldNames}
+    </sql>   
+
+#end
+ 
+ 
+   
+    <!-- 
+    <select id="selectVehicleCustomList" resultMap="VehicleCustomResultMap">
+		SELECT
+		v.created_by,
+		v.last_modified_by,
+		v.color,
+		v.driving_license_expired_date,
+		v.driving_license_no,
+		v.engine_no,
+		v.`no`,
+		v.plate_license_no,
+		v.`status`,
+		v.vin,
+		s.`name` AS vehicle_series_name,
+		b.`name` AS vehicle_brand_name,
+	    l.`no` as vehicle_location_no,
+	    l.`name` as vehicle_location_name
+	FROM
+		vehicle v
+		LEFT JOIN vehicle_resource vr ON v.id = vr.vehicle_id
+		LEFT JOIN location_resource lr ON vr.location_resource_id = lr.id
+		LEFT JOIN location l ON l.id = lr.location_id
+		LEFT JOIN vehicle_model vm ON v.model_id = vm.id
+		LEFT JOIN series s ON v.series_id = s.id
+		LEFT JOIN brand b ON s.brand_id = b.id 
+	WHERE
+		v.delete_flag = '0'
+		 <if test="plateLicenseNo != null">
+		 AND v.plate_license_no = #{plateLicenseNo}
+		 </if>
+		 <if test="operationStatus != null">
+		 AND vr.operation_status = #{operationStatus}
+		 </if>
+		 <if test="vehicleLocationNo != null">
+		 AND l.`no` = #{vehicleLocationNo}
+		 </if>
+	</select>    
+     -->
+</mapper>

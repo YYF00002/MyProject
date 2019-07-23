@@ -1,0 +1,22 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: kafka-server
+
+
+
+kafka:
+  autoCommitIntervalMs: 100
+  autoOffsetReset: latest
+  bachSize: 65536 #当有多个消息需要被发送到同一个分区时，生产者会把它们放在同一个批次里。该参数指定了一个批次可以使用的内存大小，按照字节数计算（而不是消息个数）。
+  brokers: 172.20.2.114:9092
+  bufferMemory: 524288 #该参数用来设置生产者内存缓冲区的大小，生产者用它缓冲要发送到服务器的消息。
+  concurrency: 12
+  enabled: true
+  group: test1
+  heartbeatIntervalMs: 1500
+  lingerMs: 1  #指定了生产者在每次发送消息的时间间隔
+  maxPollRecords: 20
+  pollTimeout: 4000
+  sessionTimeoutMs: 7500

@@ -1,0 +1,51 @@
+jdbc:
+  driverLocation: D:\\mybatis-genertor
+  url: jdbc:mysql://127.0.0.1:3306/video?useUnicode=true&characterEncoding=UTF-8
+  username: root
+  password: root
+  driver-class-name: com.mysql.jdbc.Driver
+
+
+context:
+  # defaultModelType
+  # 1，conditional：类似hierarchical；
+  # 2，flat：所有内容（主键，blob）等全部生成在一个对象中； default
+  # 3，hierarchical：主键生成一个XXKey对象(key class)，Blob等单独生成一个对象，其他简单属性在一个对象中(record class)
+  defaultModelType: flat
+# targetRuntime:
+# 1，MyBatis3：默认的值，生成基于MyBatis3.x以上版本的内容，包括XXXBySample；
+# 2，MyBatis3Simple：类似MyBatis3，只是不生成XXXBySample；
+  targetRuntime: MyBatis3
+
+
+# 相关表的配置
+table:
+  name: file
+  domainObjectName: File
+  enableInsert: true
+  enableDeleteByPrimaryKey: true
+  enableUpdateByPrimaryKey: true
+  enableSelectByPrimaryKey: true
+  enableDeleteByExample: true
+  enableUpdateByExample: true
+  enableSelectByExample: true
+  enableCountByExample: true
+  # column:主键的列名
+  generatedKey:
+    column: id
+    sqlStatement: JDBC
+java:
+  model:
+    generator:
+      targetPackage: com.project.springbootvideo.entity
+  client:
+    generator:
+      targetPackage: com.project.springbootvideo.service
+      type: XMLMAPPER
+
+sql:
+  map:
+    generator:
+      targetPackage: mappers
+
+

@@ -1,0 +1,33 @@
+spring:
+  cloud:
+    config:
+      name: test
+      profile: dev
+      label: master
+      discovery:
+        enabled: true
+        serviceId: springcloud-config-server
+  application:
+    name: spring-cloud-demo2
+
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 1
+    lease-expiration-duration-in-seconds: 2
+  client:
+    service-url:
+      defaultZone: http://eureka:eureka@127.0.0.1:8761/eureka/
+server:
+  port: 8081
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: ALWAYS
