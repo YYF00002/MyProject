@@ -13,6 +13,7 @@ public class KafkaConfig {
     private boolean enabled;
     private String brokers;
     private String group;
+    private String topic;
     private int bachSize;
     private int lingerMs;
     private int bufferMemory;

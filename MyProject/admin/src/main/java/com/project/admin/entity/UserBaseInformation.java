@@ -8,9 +8,7 @@ import org.springframework.data.annotation.LastModifiedDate;
 import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 import javax.persistence.*;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 
 
 /**
@@ -57,6 +55,23 @@ public class UserBaseInformation {
     //一对多
     @OneToMany(cascade = CascadeType.ALL)
     @JoinColumn(name = "user_id")
-    List<UserAdress> adresses=new ArrayList<UserAdress>();
+    List<UserAdress> adresses = new ArrayList<UserAdress>();
+
+
+    //多对多
+
+    //使用 @ManyToMany 注解来映射多对多关联关系
+    //使用 @JoinTable 来映射中间表
+    //1. name 指向中间表的名字
+    //2. joinColumns 映射当前类所在的表在中间表中的外键
+    //2.1 name 指定外键列的列名
+    //2.2 referencedColumnName 指定外键列关联当前表的哪一列
+    //3. inverseJoinColumns 映射关联的类所在中间表的外键
+    @JoinTable(name = "user_role_relation",
+            joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
+            inverseJoinColumns = {@JoinColumn(name = "user_role_id", referencedColumnName = "id")}
+    )
+    @ManyToMany(cascade = CascadeType.ALL)
+    private Set<UserRole> userRoles = new HashSet<>();
 
 }

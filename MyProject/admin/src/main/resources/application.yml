@@ -16,3 +16,9 @@ spring:
     #jpaĬ�Ͻ���ʱ�õ�����ΪMyISAM����MyISAMȴ�ǲ�֧������ģ�Ҫ��֧����Ҫ����Ĵ洢������ΪInnoDB
     #���ñ�Ĵ洢����ΪInnoDB
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+
+
+
+
+server:
+  port: 8088

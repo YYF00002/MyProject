@@ -1,14 +1,18 @@
 package com.project.kafkaconsumer.service;
 
 
+import com.project.kafkaconsumer.config.KafkaConfig;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
 @Component
 public class KafkaConsumerService {
+    @Autowired
+    private KafkaConfig kafkaConfig;
 
 
-    @KafkaListener(topics = {"yyf_topic"},containerFactory="neusoftKafkaListenerContainerFactory",group = "test1")
+    @KafkaListener(topics = {"${kafkaConfig.topic}"},containerFactory="neusoftKafkaListenerContainerFactory",group = "test1")
     public void receive(String message) {
         System.out.println("YYF--消费消息:" + message);
     }
